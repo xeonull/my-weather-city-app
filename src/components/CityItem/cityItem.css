@@ -1,0 +1,48 @@
+.city-item {
+  font-size: 24px;
+  border-bottom: 5px solid #ededed;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  color: rgba(42, 35, 78, 0.9)
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: rgba(42, 35, 78, 0.9);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(68, 170, 211, 0.9);
+}
+
+.text {
+  font-family: inherit;
+}
+
+.city-item:hover {
+  border-bottom-color: rgba(68, 170, 211, 0.9);
+  text-decoration: none;
+}
+
+.city-item:hover .text {
+  color: rgba(68, 170, 211, 0.9);
+}
+
+.trash-icon {
+  margin-left: 10px;
+  height: 16px;
+}
+
+.trash-icon:hover {
+  color: rgba(68, 170, 211, 0.9);
+}

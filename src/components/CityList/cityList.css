@@ -1,0 +1,25 @@
+.block-list-center {
+  display: inline-block;
+  width: 320px;
+ }
+
+.city-list {
+  padding: 0;
+  margin: 0px;
+}
+
+.sort-block {
+  margin: 0px;
+  padding: 0px 8px 0px 8px;
+  line-height: 1.8;
+  word-wrap: normal;
+  font-size: 1rem;
+}
+
+.sort-arrows {
+  cursor: pointer;
+}
+
+.sort-arrows:hover {
+  color: rgba(68, 170, 211, 0.9);
+}
